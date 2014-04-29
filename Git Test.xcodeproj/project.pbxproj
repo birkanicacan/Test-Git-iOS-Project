@@ -21,6 +21,7 @@
 		8F8FFD8B190F56E700B69089 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8FFD6D190F56E600B69089 /* UIKit.framework */; };
 		8F8FFD93190F56E700B69089 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F8FFD91190F56E700B69089 /* InfoPlist.strings */; };
 		8F8FFD95190F56E700B69089 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8FFD94190F56E700B69089 /* Git_TestTests.m */; };
+		8F8FFDA0190F590F00B69089 /* BITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8FFD9F190F590F00B69089 /* BITest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8F8FFD90190F56E700B69089 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		8F8FFD92190F56E700B69089 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F8FFD94190F56E700B69089 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		8F8FFD9E190F590F00B69089 /* BITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITest.h; sourceTree = "<group>"; };
+		8F8FFD9F190F590F00B69089 /* BITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		8F8FFD5D190F56E600B69089 = {
 			isa = PBXGroup;
 			children = (
+				8F8FFD9E190F590F00B69089 /* BITest.h */,
+				8F8FFD9F190F590F00B69089 /* BITest.m */,
 				8F8FFD6F190F56E600B69089 /* Git Test */,
 				8F8FFD8E190F56E700B69089 /* Git TestTests */,
 				8F8FFD68190F56E600B69089 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				8F8FFD80190F56E700B69089 /* BIViewController.m in Sources */,
 				8F8FFD76190F56E600B69089 /* main.m in Sources */,
+				8F8FFDA0190F590F00B69089 /* BITest.m in Sources */,
 				8F8FFD7A190F56E700B69089 /* BIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
